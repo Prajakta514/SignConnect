@@ -1,0 +1,34 @@
+.sidebar {
+	position: fixed;
+	top: 10;
+	left: 0;
+	margin: 15px;
+	height: 100vh; 
+	background-color: #0D6EFD; 
+	color: white; 
+	padding: 30px 10px;
+	width: 240px; 
+	overflow-y: auto; 
+	z-index: 100; 
+  }
+  
+  .sidebar hr {
+	border-color: #3a3b3c; 
+  }
+  
+  .sidebar a {
+	color: white; 
+	font-size: 4px; 
+  }
+  
+  .sidebar a:hover {
+	text-decoration: underline;
+  }
+  
+  .sidebar svg {
+	fill: rgb(250, 244, 244); /* Change this to your desired color */
+  }
+
+  .sidebar .small-text {
+	font-size: 10px; /* Adjust the font size to your preference */
+  }

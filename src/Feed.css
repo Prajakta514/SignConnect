@@ -1,0 +1,23 @@
+.feed {
+	flex: 1;
+	padding: 30px 150px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background-color:#f4f7f7;
+	margin-left: 10px;
+}
+* {
+	font-family: 'Poppins', sans-serif;
+}
+.conf {
+	display: flex;
+	width: 50vh;
+	margin-top: 5px;
+	flex-direction: column;
+	background-color: rgb(247, 190, 231);
+	border-radius: 15px;
+	box-shadow: 0px 5px 7px -7px rgba(0, 0, 0, 1);
+	width: 70;
+}
