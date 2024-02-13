@@ -25,7 +25,7 @@ const Res = () => {
   return (
     <div>
       <div>
-      <Header/>
+      
         <h1 style={{ color: 'white' }}>DEAF CULTURE</h1>
       </div>
       

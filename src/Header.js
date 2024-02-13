@@ -1,6 +1,6 @@
 import React from 'react';
 import './Header.css';
-import deaf_logo2 from './deaf_logo2.png';
+import Logo2 from './Logo2.png';
 
 import SearchIcon from '@material-ui/icons/Search';
 import HomeIcon from '@material-ui/icons/Home';
@@ -26,7 +26,7 @@ function Header() {
 				<img
 					className="i1"
 					// src="https://serving.photos.photobox.com/61203057d9e6c95528bd1560e33d3a28f80dc67e4e26de3409a295b82f1d67e30e5fe766.jpg"
-					 src={deaf_logo2}
+					 src={Logo2}
 					alt=""
 				/>
 

@@ -4,7 +4,7 @@ import { Button } from '@material-ui/core';
 import { auth, provider } from './firebase';
 import { actionTypes } from './reducer';
 import { useStateValue } from './StateProvider';
-import deaf_logo2 from './deaf_logo2.png';
+import logo2 from './Logo2.png';
 
 function Login() {
 	//dispatching; pulling info from data layer
@@ -29,10 +29,10 @@ function Login() {
 	return (
 		<div className="login">
 			<div className="login__logo">
-				<p>welcome</p>
+				
 				<img
 					className="logo1"
-					src={deaf_logo2}
+					src={logo2}
 				/>
 
 				
