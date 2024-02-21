@@ -372,7 +372,7 @@ const Forum = () => {
   };
 
   return (
-    <div className="forum-container">
+    <div className="forum-container" style= {{width: '8000px'}}>
       {showCommunityGroupList && (
         <>
           <div className="communities-list">

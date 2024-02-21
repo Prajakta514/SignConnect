@@ -24,50 +24,39 @@ const Res = () => {
 
   return (
     <div style={{width:'100%'}}>
-      <div>
       
-        <h1 style={{ color: 'white' }}>DEAF CULTURE</h1>
-      </div>
-      
-
-      <div className="first">
-      
-
-         
-      </div>
-    
     <center>
       <div className="second">
         <h2 style={{ textAlign: 'center', color: 'rgb(43, 16, 16)' }}>Resources</h2>
 
         <div className="second_first">
-          <Card style={{ width: '18rem' }} className="mx-auto">
+          <Card style={{ width: '25rem', height:'400px'}} className="mx-auto">
             <Card.Img variant="top" src={deaf2} />
             <Card.Body>
-              <Card.Title>Learning</Card.Title>
-              <Card.Text>Quick start for learning through the courses learn and grow.</Card.Text>
-              <Button variant="primary" href="https://www.startasl.com/learn-american-sign-language/">
-                Courses
+              <Card.Title>Latest Updates</Card.Title>
+              <Card.Text>Get the latest updates.</Card.Text>
+              <Button variant="primary" href="https://nationaldeafcenter.org/news-items/new-data-dashboard-updates/">
+                Check Updates
               </Button>
             </Card.Body>
           </Card>
-          <Card style={{ width: '18rem' }} className="mx-auto">
+          <Card style={{ width: '25rem', height:'400px' }} className="mx-auto">
             <Card.Img variant="top" src={deaf2} />
             <Card.Body>
-              <Card.Title>Resources</Card.Title>
-              <Card.Text>Some resources history about deaf people.</Card.Text>
-              <Button variant="primary" href="https://www.startasl.com/blog/">
-                Resources
+              <Card.Title>Scholarships</Card.Title>
+              <Card.Text>Available</Card.Text>
+              <Button variant="primary" href="https://www.rmtcdhh.org/faq/scholarships#:~:text=What%20scholarships%20are%20available%20for%20students%20who%20are,8%20Rochester%20Institute%20of%20Technology%20...%20More%20items">
+                Scholarships
               </Button>
             </Card.Body>
           </Card>
-          <Card style={{ width: '18rem' }} className="mx-auto">
+          <Card style={{ width: '25rem', height:'400px' }} className="mx-auto">
             <Card.Img variant="top" src={deaf2} />
             <Card.Body>
-              <Card.Title>Tutoring</Card.Title>
+              <Card.Title>Articles</Card.Title>
               <Card.Text>Learn and Grow.</Card.Text>
-              <Button variant="primary" href="https://www.startasl.com/asl-tutors/">
-                Tutor
+              <Button variant="primary" href="https://www.nytimes.com/2021/10/10/opinion/deaf-population-integration.html">
+                Check Articles
               </Button>
             </Card.Body>
           </Card>
@@ -98,11 +87,10 @@ const Res = () => {
           ></iframe>
         </div>
       </Container>
+      <br/><br/><br/>
       </center>
     </div>
   );
 };
 
 export default Res;
-
-

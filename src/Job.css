@@ -46,10 +46,11 @@
     margin: 10px;
   }
   .background-container {
-    background-image: url('bg3.png');
-    background-size: cover; /* Cover the entire container */
-    background-repeat: no-repeat; /* Do not repeat the image */
+    /* background-image: url('bg3.png');
+    background-size: cover;
+    background-repeat: no-repeat;  */
     /* Add other styles as needed */
+    background-color: #408dff;
   }
   
   

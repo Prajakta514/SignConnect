@@ -36,14 +36,16 @@ const Displaydata = () => {
     // margin: '0 auto',
     margin: '10px',
     
+    
   
   };
   return (
     <>
-    <div>
+    <div style={{marginLeft:'200px'}}>
+      <center>
     <Filter filterItem={filterItem} userList={userList}></Filter>
-    <Displaycard data={data}></Displaycard></div>
-    
+    <Displaycard data={data}></Displaycard></center>
+    </div>
     </>
   )
 }

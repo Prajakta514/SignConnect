@@ -1,0 +1,17 @@
+.join-button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background: linear-gradient(to bottom right, #8ebbf3, #3880f4); /* Blue gradient from dark to faint */
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  box-shadow: 0px 7px 6px rgba(0, 0, 0, 0.1); /* Shadow effect */
+  transition: all 0.3s ease;
+}
+
+.join-button:hover {
+  transform: translateY(-2px); /* Apply slight lift on hover */
+  box-shadow: 0px 6px 8px rgba(0, 0, 0, 0.2); /* Darker shadow on hover */
+}

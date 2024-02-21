@@ -1,34 +1,36 @@
 .sidebar {
-	position: fixed;
-	top: 10;
-	left: 0;
-	margin: 15px;
-	height: 100vh; 
-	background-color: #0D6EFD; 
-	color: white; 
-	padding: 30px 10px;
-	width: 240px; 
-	overflow-y: auto; 
-	z-index: 100; 
-  }
-  
-  .sidebar hr {
-	border-color: #3a3b3c; 
-  }
-  
-  .sidebar a {
-	color: white; 
-	font-size: 4px; 
-  }
-  
-  .sidebar a:hover {
-	text-decoration: underline;
-  }
-  
-  .sidebar svg {
-	fill: rgb(250, 244, 244); /* Change this to your desired color */
-  }
+    position: fixed;
+    top:60px;
+    left: 0px;
+    margin: 5px;
+    height: 100vh;
+    background-color: #0d6efd;
+    color: white;
+    padding: 15px 10px; /* Adjusted padding for better spacing */
+    width: 240px;
+    overflow-y: auto;
+    z-index: 0;
+}
 
-  .sidebar .small-text {
-	font-size: 10px; /* Adjust the font size to your preference */
-  }
+.sidebar hr {
+    border-color: #3a3b3c;
+}
+
+.sidebar a {
+    color: white;
+    font-size: 10px; /* Adjusted font size for better visibility */
+}
+
+.sidebar a:hover {
+    text-decoration: underline;
+}
+
+.sidebar svg {
+    fill: rgb(250, 244, 244);
+    width: 20px; /* Adjusted width of the symbols */
+    height: 20px; /* Adjusted height of the symbols */
+}
+
+.sidebar .small-text {
+    font-size: 8px; /* Adjusted font size for small text */
+}

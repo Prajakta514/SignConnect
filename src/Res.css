@@ -18,26 +18,25 @@ body {
   max-width: 100%; /* Add max-width for responsiveness */
 }
 
-.carousel-item img {
-  height: auto; /* Set height to auto for responsiveness */
-  width: 100%;
-}
 
 .second {
-  background-color: rgb(170, 180, 193);
+  background-color: #5791e9;
   padding: 30px;
   margin-top: 20px;
   width: 100%;
+
 }
 
 .second_first {
   justify-content: space-around;
   display: flex;
   flex-wrap: wrap;
+
 }
 
 .second_first .card {
   margin-bottom: 20px;
+   
 }
 
 .container {

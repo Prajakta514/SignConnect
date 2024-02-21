@@ -1,68 +1,77 @@
 .header {
     display: flex;
-    padding: 10px 20px; /* Reduce padding */
+    align-items: center;
     justify-content: space-between;
+    padding: 10px 20px;
     position: sticky;
-    background-color: rgb(217, 161, 231) !important ;
-    /* background-color: rgb(6, 0, 8) !important ;  */
+    /* background-color: #A0E9FF; */
+     background-color: #0d6efd !important;
     z-index: 100;
     top: 0;
     box-shadow: 0px 2px 4px rgba(0, 0, 0, .1);
-    width: 100%;
-    width: max-content;
-    min-width: max-content;
 }
 
-.header__left > img {
-    height: 50px; 
-	width: 130px;
-	margin-left: 30px;
-}
-
-.header__left {
-    display: flex;
-    align-items: center; /* Center align items */
+.header__left > .logo {
+    height: 40px;
+    width: 120px;
 }
 
 .header__input {
     display: flex;
     align-items: center;
-    background-color: #eff2f5;
-    margin-left: 470px;
-    border-radius: 20px; /* Increase border radius */
+    background-color: white;
+    border-radius: 20px;
+    padding: 10px;
+    margin-left: 20px;
 }
 
 .header__input > input {
     border: none;
     background-color: transparent;
     outline: none;
+    margin-left: 10px;
 }
 
-.header__option:hover {
-    background-color: #eff2f5;
-    border-radius: 10px;
-    padding: 8px 20px; /* Reduce padding */
-    border-bottom: none;
-}
-
-.header__info > h4 {
-    margin-left: 8px; /* Reduce margin */
-}
-
-.header__right {
+.header__center {
     display: flex;
     align-items: center;
 }
+
+.header__option {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    margin: 0 5px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.header__option:hover {
+    background-color: #E0F7FE;
+}
+
 .header__info {
     display: flex;
     align-items: center;
 }
 
 .header__info > h5 {
-    margin-left: 10px; /* Add margin between username and profile picture */
+    margin-left: 10px;
 }
 
-.header__info > h5,
-.header__info > .MuiAvatar-root {
-    margin-right: 10px; /* Add margin between username and profile picture */
+.header__icons {
+    display: flex;
+    align-items: center;
+}
+
+.header__icon {
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+.avatar {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    object-fit: cover;
 }

@@ -1,72 +1,32 @@
 import React from 'react';
 import './Header.css';
 import Logo2 from './Logo2.png';
-
-import SearchIcon from '@material-ui/icons/Search';
-import HomeIcon from '@material-ui/icons/Home';
-import FlagIcon from '@material-ui/icons/Flag';
-import SubscriptionsIcon from '@material-ui/icons/Subscriptions';
-import StorefrontIcon from '@material-ui/icons/Storefront';
-import SupervisedUserCircleIcon from '@material-ui/icons/SupervisedUserCircle';
-import { Avatar } from '@material-ui/core';
-import { IconButton } from '@material-ui/core';
-import AddIcon from '@material-ui/icons/Add';
-import ForumIcon from '@material-ui/icons/Forum';
-import NotificationsActiveIcon from '@material-ui/icons/NotificationsActive';
-import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
+import { FaUserPlus, FaBell, FaAngleDown } from 'react-icons/fa'; // Import React icons
 import { useStateValue } from './StateProvider';
 
 function Header() {
-	const [ { user }, dispatch ] = useStateValue();
-	return (
-		<div className="header">
-			{/*  splitting header into 3 components */}
+  const [{ user }, dispatch] = useStateValue();
+  
+  return (
+    <div className="header" style={{ backgroundColor: '#A0E9FF' }}>
+      <div className="header__left">
+        <img className="logo" src={Logo2} alt="logo" />
+      </div>
 
-			<div className="header__left">
-				<img
-					className="i1"
-					// src="https://serving.photos.photobox.com/61203057d9e6c95528bd1560e33d3a28f80dc67e4e26de3409a295b82f1d67e30e5fe766.jpg"
-					 src={Logo2}
-					alt=""
-				/>
+      <div className="header__center">
+        <div className="header__info">
+          <img className="avatar" src={user.photoURL} alt="avatar" />
+          <h5>{user.displayName}</h5>
+        </div>
 
-				<div className="header__input">
-					<SearchIcon />
-					<input placeholder="Search..." type="text" />
-				</div>
-			</div>
-
-			{/* <div className="header__center">
-				<div className="header__option header__option--active">
-					<HomeIcon fontSize="large" />
-				</div> */}
-
-				
-
-			<div className="header__right">
-				<div className="header__info">
-					<Avatar src={user.photoURL} />
-					<h5>{user.displayName}</h5>
-				</div>
-
-				<IconButton>
-					<AddIcon />
-				</IconButton>
-
-				<IconButton>
-					<ForumIcon />
-				</IconButton>
-
-				<IconButton>
-					<NotificationsActiveIcon />
-				</IconButton>
-
-				<IconButton>
-					<ExpandMoreIcon />
-				</IconButton>
-			</div>
-		</div>
-	);
+        <div className="header__icons" style={{margin: '10px'}}>
+          <FaUserPlus className="header__icon" size={24} />
+          <FaBell className="header__icon" size={24} />
+          <FaAngleDown className="header__icon" size={24} />
+        </div>
+      </div>
+    </div>
+  );
 }
 
 export default Header;

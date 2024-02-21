@@ -61,7 +61,7 @@ import {db} from './firebase';
 import Home from './Home';
 import Room from './Room';
 // import Video from './Video';
-import Keyboard from './Keyboard';
+
 
 function Feed() {
   const [posts, setPosts] = useState([]);
@@ -75,15 +75,18 @@ function Feed() {
   return (
     <div className="feed">
       <div className="conf">
-        <Routes>
+        {/* <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/room/:roomId" element={<Room />} />
-        </Routes>
+        </Routes> */}
+           {/* <Routes>
+          <Route path="/" element={<Room />} />
+        </Routes> */}
+        <Room/>
       </div>
       <hr />
-   {/* <Keyboard/> */}
-      {/* <StoryReel /> */}
-    
+
+    {/* <Room/> */}
       <MessageSender />
 
       {posts.map((post) => (

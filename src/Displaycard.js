@@ -4,8 +4,8 @@ import './Displaycard.css';
 
 const Displaycard = ({ data }) => {
   return (
-    <div className='container' style={{maxWidth:"1300px"}}>
-      <div className="row row-cols-1 row-cols-md-3 g-4 mb-2 mx-3" style={{marginBottom: '15px', marginRight:' 15px'}}>
+    <div className='c' style={{maxWidth:"1300px"}}>
+      <div className="row row-cols-1 row-cols-md-3 g-4 mb-2 mx-3" style={{marginBottom: '15px', margin:' 25px'}}>
      
         {data.map((curElm) => {
           const { id, location, speciality, image, description, hospital,src1} = curElm;

@@ -13,10 +13,11 @@
 }
 .conf {
 	display: flex;
-	width: 50vh;
+	width: 100vh;
 	margin-top: 5px;
 	flex-direction: column;
-	background-color: rgb(247, 190, 231);
+	/* background-color: rgb(247, 190, 231); */
+	background-color: #3eceea;
 	border-radius: 15px;
 	box-shadow: 0px 5px 7px -7px rgba(0, 0, 0, 1);
 	width: 70;

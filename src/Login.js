@@ -1,6 +1,6 @@
 import React from 'react';
 import './Login.css';
-import { Button } from '@material-ui/core';
+
 import { auth, provider } from './firebase';
 import { actionTypes } from './reducer';
 import { useStateValue } from './StateProvider';
@@ -28,18 +28,11 @@ function Login() {
 
 	return (
 		<div className="login">
-			<div className="login__logo">
-				
-				{/*<img
-					className="logo1"
-					src={logo2}
-				/>*/ }
+		<br/><br/><br/>
+			<button className="login__button" onClick={signIn}>
+			Sign In
+			</button>
 
-				
-			</div>
-			<Button type="submit" onClick={signIn}>
-				Sign In
-			</Button>
 		</div>
 	);
 }

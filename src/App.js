@@ -49,7 +49,7 @@ function App() {
 				  <Route path="/Res" element={<Res/>} />
 				  <Route path="/LearnSign" element={<LearnSign/>} />
 				  <Route path="/Job" element={<Job/>} />
-				  <Route path="/Chat" element={<GroupChat/>} />
+				  <Route path="/GroupChat" element={<GroupChat/>} />
 				  </Routes>
 				
 				  {/* <Feed />

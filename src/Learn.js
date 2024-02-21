@@ -24,14 +24,24 @@ const Res = () => {
 
   return (
     <div style={{width:'100%'}}>
-    
+      <div>
+      
+        <h1 style={{ color: 'white' }}>DEAF CULTURE</h1>
+      </div>
+      
+
+      <div className="first">
+      
+
+         
+      </div>
     
     <center>
       <div className="second">
         <h2 style={{ textAlign: 'center', color: 'rgb(43, 16, 16)' }}>Resources</h2>
 
         <div className="second_first">
-          <Card style={{width: '25rem', height:'400px' }} className="mx-auto">
+          <Card style={{ width: '18rem' }} className="mx-auto">
             <Card.Img variant="top" src={deaf2} />
             <Card.Body>
               <Card.Title>Learning</Card.Title>
@@ -41,7 +51,7 @@ const Res = () => {
               </Button>
             </Card.Body>
           </Card>
-          <Card style={{ width: '25rem', height:'400px' }} className="mx-auto">
+          <Card style={{ width: '18rem' }} className="mx-auto">
             <Card.Img variant="top" src={deaf2} />
             <Card.Body>
               <Card.Title>Resources</Card.Title>
@@ -51,7 +61,7 @@ const Res = () => {
               </Button>
             </Card.Body>
           </Card>
-          <Card style={{ width: '25rem', height:'400px' }} className="mx-auto">
+          <Card style={{ width: '18rem' }} className="mx-auto">
             <Card.Img variant="top" src={deaf2} />
             <Card.Body>
               <Card.Title>Tutoring</Card.Title>
@@ -96,4 +106,3 @@ const Res = () => {
 };
 
 export default Res;
-
