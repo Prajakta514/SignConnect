@@ -9,13 +9,16 @@ import { useStateValue } from './StateProvider';
 import {Routes,Route, BrowserRouter} from 'react-router-dom';
 import Home from './Home';
 import Room from './Room';
-import Hosp from './Hosp';
+
 import LearnSign from './LearnSign';
 import RNavbar from './RNavbar';
 import Res from './Res';
 import Chatbot from './Chatbot';
 import Job from './Job';
-
+import ChatApp from './Chatapp';
+import { Chat } from '@material-ui/icons';
+import GroupChat from './GroupChat';
+import UserData from './Displaydata';
 
 
 
@@ -30,6 +33,7 @@ function App() {
 
 			{!user ? (
 			 <Login />
+			 
 			):(
 				
 				<>
@@ -40,14 +44,14 @@ function App() {
 	
 				   <Routes>
 				
-				  <Route path="/" element={<div><Chatbot/><Sidebar/><Feed/></div>} />
-				  <Route path="/Hosp" element={<Hosp/>} />
+				  <Route path="/" element={<div><Chatbot/><RNavbar/><Sidebar/><Feed/></div>} />
+				  <Route path="/Hosp" element={<UserData/>} />
 				  <Route path="/Res" element={<Res/>} />
 				  <Route path="/LearnSign" element={<LearnSign/>} />
 				  <Route path="/Job" element={<Job/>} />
+				  <Route path="/Chat" element={<GroupChat/>} />
 				  </Routes>
-				 
-				<p>Hi</p>
+				
 				  {/* <Feed />
 				  <RNavbar/> */}
 				  {/* <Widgets /> */}

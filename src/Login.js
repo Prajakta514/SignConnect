@@ -30,10 +30,10 @@ function Login() {
 		<div className="login">
 			<div className="login__logo">
 				
-				<img
+				{/*<img
 					className="logo1"
 					src={logo2}
-				/>
+				/>*/ }
 
 				
 			</div>

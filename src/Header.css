@@ -1,91 +1,68 @@
 .header {
-	display: flex;
-	padding: 15px 20px;
-	justify-content: space-between;
-	position: sticky;
-	background-color: white;
-	z-index: 100;
-	top: 0;
-	box-shadow: 0px 5px 8px -9px rgba(0, 0, 0, .75);
-	width: 100%;
-
+    display: flex;
+    padding: 10px 20px; /* Reduce padding */
+    justify-content: space-between;
+    position: sticky;
+    background-color: rgb(217, 161, 231) !important ;
+    /* background-color: rgb(6, 0, 8) !important ;  */
+    z-index: 100;
+    top: 0;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, .1);
+    width: 100%;
+    width: max-content;
+    min-width: max-content;
 }
 
 .header__left > img {
-	height: 40px;
+    height: 50px; 
+	width: 130px;
+	margin-left: 30px;
 }
 
 .header__left {
-	display: flex;
-	justify-content: space-evenly;
+    display: flex;
+    align-items: center; /* Center align items */
 }
 
 .header__input {
-	display: flex;
-	align-items: center;
-	background-color: #eff2f5;
-	padding: 10px;
-	margin-left: 10px;
-	border-radius: 999px;
+    display: flex;
+    align-items: center;
+    background-color: #eff2f5;
+    margin-left: 470px;
+    border-radius: 20px; /* Increase border radius */
 }
 
 .header__input > input {
-	border: none;
-	background-color: transparent;
-	outline-width: 0;
-}
-
-.header__center {
-	display: flex;
-	flex: 1;
-	justify-content: center;
-}
-
-.header__option > .MuiSvgIcon-root {
-	color: gray;
-}
-
-.header__option:hover > .MuiSvgIcon-root {
-	color: #5f25aa;
-}
-
-.header__option {
-	display: flex;
-	align-items: center;
-	padding: 0 30px;
-	cursor: pointer;
+    border: none;
+    background-color: transparent;
+    outline: none;
 }
 
 .header__option:hover {
-	background-color: #eff2f5;
-	border-radius: 10px;
-	align-items: center;
-	padding: 0 30px;
-	border-bottom: none;
-}
-
-.header__info {
-	display: flex;
-	align-items: center;
+    background-color: #eff2f5;
+    border-radius: 10px;
+    padding: 8px 20px; /* Reduce padding */
+    border-bottom: none;
 }
 
 .header__info > h4 {
-	margin-left: 10px;
+    margin-left: 8px; /* Reduce margin */
 }
 
 .header__right {
-	display: flex;
+    display: flex;
+    align-items: center;
+}
+.header__info {
+    display: flex;
+    align-items: center;
 }
 
-/*👉. header__option--active > .MuiSvgIcon-root {
-	color: #2e81f4;
+.header__info > h5 {
+    margin-left: 10px; /* Add margin between username and profile picture */
 }
 
-.header__option--active {
-	border-bottom: 4px solid #2e81f4;
-}
-👈*/
-
-* {
-	font-family: 'Roboto', sans-serif;
+.header__info > h5,
+.header__info > .MuiAvatar-root {
+    margin-right: 10px; /* Add margin between username and profile picture */
 }

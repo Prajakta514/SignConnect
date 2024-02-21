@@ -63,7 +63,7 @@ function Sidebar() {
       <SidebarRow Icon={LocalHospitalIcon} title="Home" link="/" isSelected={true} />
       <SidebarRow Icon={PeopleIcon} title="Explore"  />
       <SidebarRow Icon={EmojiFlagsIcon} title="Resources" link="/Res" />
-      <SidebarRow Icon={ChatIcon} title="Messenger" />
+      <SidebarRow Icon={ChatIcon} title="Chat" link="Chat" />
       <SidebarRow Icon={PeopleIcon} title="Jobs" link="/Job" />
       <SidebarRow Icon={LocalHospitalIcon} title="Nearby HealthCares" link="/Hosp" />
       <SidebarRow Icon={VideoLibraryIcon} title="Learn Sign Language" link="/LearnSign" />

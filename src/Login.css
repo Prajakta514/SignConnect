@@ -3,6 +3,9 @@
 	place-items: center;
 	height: 100vh;
 	background-color: white;
+	background-image: url(bg_deaf.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
 .logo1 {

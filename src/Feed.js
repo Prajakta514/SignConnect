@@ -81,7 +81,7 @@ function Feed() {
         </Routes>
       </div>
       <hr />
-   <Keyboard/>
+   {/* <Keyboard/> */}
       {/* <StoryReel /> */}
     
       <MessageSender />

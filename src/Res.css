@@ -1,48 +1,33 @@
-/* In your Res.css file */
 
 body {
   margin: 0;
   padding: 0;
   font-family: 'Arial', sans-serif;
+  width:100%;
 }
 
-/* .header {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  padding: 20px;
-  background: rgba(128, 188, 189, 0.8);
-  color: white;
-  box-shadow: 0.5px 0.5px 5px rgb(28, 23, 23);
-  display: flex;
-  height: 80px;
-  justify-content: center;
-  align-items: center;
-  z-index: 1000;
-} */
 
 .content {
-  padding-top: 120px;
+  padding-top: 100px; /* Adjusted padding-top for the fixed header */
 }
 
 .first {
   padding-top: 30px;
   margin: 0 auto; /* Center the content */
-  width: 70%; /* Limit the width if needed */
+  width: 100%; /* Set width to 100% */
+  max-width: 100%; /* Add max-width for responsiveness */
 }
 
 .carousel-item img {
-  height: 500px;
+  height: auto; /* Set height to auto for responsiveness */
   width: 100%;
-  object-fit: cover;
 }
 
 .second {
   background-color: rgb(170, 180, 193);
   padding: 30px;
   margin-top: 20px;
-  width: 100%; /* Take full width */
+  width: 100%;
 }
 
 .second_first {
@@ -61,7 +46,6 @@ body {
   padding-top: 30px;
   margin-top: 30px;
   box-shadow: 0.5px 0.5px 5px rgb(28, 23, 23);
-  
 }
 
 .video-container {
