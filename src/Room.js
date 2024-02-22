@@ -3,7 +3,7 @@ import { useParams } from 'react-router-dom';
 import { ZegoUIKitPrebuilt } from '@zegocloud/zego-uikit-prebuilt';
 import { FaVideo } from 'react-icons/fa';
 import './Home.css';
-import imageSrc from './Images/c2.jpg'; // Import your image
+import imageSrc from './Images/d3.jpg'; // Import your image
 
 const Room = () => {
   const { roomId } = useParams(); // Access roomId from URL
@@ -34,7 +34,7 @@ const Room = () => {
       <center>
         <br />
         <div style={{ display: 'flex', alignItems: 'center' }}>
-          <img src={imageSrc} alt="Image" style={{ width: '30%', marginRight: '40px', margin:'10px' , borderRadius: '20px'}} /> {/* Image taking up 30% width */}
+          <img src={imageSrc} alt="Image" style={{ width: '30%',height: '200px', marginRight: '40px', margin:'10px' , borderRadius: '20px'}} /> {/* Image taking up 30% width */}
           <div>
             <FaVideo fontSize="2rem" style={{ marginRight: '5px', color: 'red' }} /> {/* Use FaVideo icon */}
             <h3>Communicate Quickly & Effectively</h3>
