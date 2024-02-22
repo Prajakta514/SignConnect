@@ -16,7 +16,7 @@ import Res from './Res';
 import Chatbot from './Chatbot';
 import Job from './Job';
 import ChatApp from './Chatapp';
-import { Chat } from '@material-ui/icons';
+
 import GroupChat from './GroupChat';
 import UserData from './Displaydata';
 
