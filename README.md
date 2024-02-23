@@ -1,5 +1,5 @@
 Sign Connect
-Introduction
+
 Welcome to the Deaf Community Hub, an inclusive platform designed to cater to the unique needs of the deaf community. This platform aims to foster communication, collaboration, and support among members of the deaf community.
 Features
 1. Sharing Pictures and Videos
