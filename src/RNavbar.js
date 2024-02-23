@@ -15,13 +15,13 @@ const RNavbar = () => {
   const [displayedYear, setDisplayedYear] = useState(new Date().getFullYear());
 
   const navbarStyle = {
-    top:'60px',
+    top:'0',
     backgroundColor: '#0d6efd',
     height: '100vh',
     width: '280px',
     position: 'fixed',
     right: 3,
-     fontStyle:'bold',
+    fontStyle:'bold',
     color: 'white',
     padding: '15px',
     fontFamily: 'Roboto',
@@ -169,7 +169,7 @@ const RNavbar = () => {
 
   return (
     <div style={navbarStyle}>
-      <h3>Calendar</h3>
+      <br/><br/><br/><h3>Calendar</h3>
       <div style={taglineStyle} >
         Plan your events and stay organized with our interactive calendar!
       </div>

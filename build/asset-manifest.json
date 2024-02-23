@@ -1,14 +1,24 @@
 {
   "files": {
-    "main.css": "/static/css/main.0a2dfae8.css",
-    "main.js": "/static/js/main.73cd57c7.js",
-    "static/media/deaf_logo2.png": "/static/media/deaf_logo2.1552d1c88b239c939c57.png",
+    "main.css": "/static/css/main.cb248f02.css",
+    "main.js": "/static/js/main.d1c7feab.js",
+    "static/media/deaf5.png": "/static/media/deaf5.3c0fa9e7eab7b88fc47e.png",
+    "static/media/deaf2.png": "/static/media/deaf2.3469e68475cd33c72fda.png",
+    "static/media/deaf1.jpg": "/static/media/deaf1.75ebad93080087e1cb3f.jpg",
+    "static/media/l2.png": "/static/media/l2.049bcdd8810886e5c938.png",
+    "static/media/job1.png": "/static/media/job1.b4ea5b78df2c244e0eb6.png",
+    "static/media/Logo2.png": "/static/media/Logo2.463f987a3607384c741a.png",
+    "static/media/deaf_icon.jpg": "/static/media/deaf_icon.a583241be25bdef185f7.jpg",
+    "static/media/c3.jpg": "/static/media/c3.06155065e42ed7c7fd91.jpg",
+    "static/media/bg_deaf.jpg": "/static/media/bg_deaf.de0b9f316ce57852cacd.jpg",
+    "static/media/job2.jpg": "/static/media/job2.6031495a8217eb799ade.jpg",
+    "static/media/d3.jpg": "/static/media/d3.1abc5f9e3a94a9b3e2d4.jpg",
     "index.html": "/index.html",
-    "main.0a2dfae8.css.map": "/static/css/main.0a2dfae8.css.map",
-    "main.73cd57c7.js.map": "/static/js/main.73cd57c7.js.map"
+    "main.cb248f02.css.map": "/static/css/main.cb248f02.css.map",
+    "main.d1c7feab.js.map": "/static/js/main.d1c7feab.js.map"
   },
   "entrypoints": [
-    "static/css/main.0a2dfae8.css",
-    "static/js/main.73cd57c7.js"
+    "static/css/main.cb248f02.css",
+    "static/js/main.d1c7feab.js"
   ]
 }

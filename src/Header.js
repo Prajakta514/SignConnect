@@ -1,7 +1,7 @@
 import React from 'react';
 import './Header.css';
 // import Logo2 from './Logo2.png';
-import l2 from './Images/l2.png';
+import l2 from './l5.png';
 import { FaUserPlus, FaBell, FaAngleDown } from 'react-icons/fa'; // Import React icons
 import { useStateValue } from './StateProvider';
 
@@ -11,7 +11,7 @@ function Header() {
   return (
     <div className="header" style={{ backgroundColor: '#A0E9FF' }}>
       <div className="header__left">
-        <img className="logo" src={l2} alt="logo" />
+        <img className="logo" src={l2} alt="logo" style={{width: '170px', height: '60px'}}/>
       </div>
 
       <div className="header__center">

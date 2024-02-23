@@ -1,4 +1,4 @@
-// Import necessary React components and CSS file
+//Import necessary React components and CSS file
 import React, { useState } from 'react';
 import './Job.css';
 import Header from './Header';
@@ -14,12 +14,12 @@ import bg from './bg.jpeg'
 
 // Sample job data
 const jobsData = [
-  { id: 1, title: 'Sign Language Translator', location: 'Remote', category: 'IT', type: 'Full Time', image: job4, website: 'https://www.google.com' },
-  { id: 2, title: 'Graphic Designer', location: 'New York', category: 'Design', type: 'Part Time', image: job6, website: 'https://www.google.com' },
-  { id: 3, title: 'Full Stack Developer', location: 'San Francisco', category: 'IT', type: 'Contract', image: job2, website: 'https://www.google.com' },
-  { id: 4, title: 'UX/UI Designer', location: 'Los Angeles', category: 'Design', type: 'Full Time', image: job3, website: 'https://www.google.com' },
-  { id: 5, title: 'Data Scientist', location: 'Chicago', category: 'Data Science', type: 'Part Time', image: job1, website: 'https://www.google.com' },
-  { id: 6, title: 'Marketing Specialist', location: 'Boston', category: 'Marketing', type: 'Full Time', image: job5, website: 'https://www.google.com' },
+  { id: 1, title: 'Sign Language Translator', location: 'Remote', category: 'IT', type: 'Full Time', image: job4, website: 'https://in.linkedin.com/jobs/deaf-jobs?currentJobId=3828248290&position=1&pageNum=0' },
+  { id: 2, title: 'Graphic Designer', location: 'New York', category: 'Design', type: 'Part Time', image: job6, website: 'https://www.indeed.com/career-advice/finding-a-job/jobs-deaf-hard-of-hearing' },
+  { id: 3, title: 'Full Stack Developer', location: 'San Francisco', category: 'IT', type: 'Contract', image: job2, website: 'https://www.zippia.com/advice/jobs-deaf-people/' },
+  { id: 4, title: 'UX/UI Designer', location: 'Los Angeles', category: 'Design', type: 'Full Time', image: job3, website: 'https://www.trade-schools.net/articles/jobs-for-deaf-people' },
+  { id: 5, title: 'Data Scientist', location: 'Chicago', category: 'Data Science', type: 'Part Time', image: job1, website: 'https://mydisabilityjobs.com/career-tips/jobs-for-deaf-people/' },
+  { id: 6, title: 'Marketing Specialist', location: 'Boston', category: 'Marketing', type: 'Full Time', image: job5, website: 'https://apm.net.au/job-seekers/resources/top-10-jobs-for-people-with-a-hearing-impairment' },
   // Add more job data as needed
 ];
 
@@ -40,7 +40,7 @@ const JobCard = ({ job }) => {
   };
 
   const imageStyle = {
-    width: '600px', 
+    width: '600px',
     height: '270px',
     margin: '10px',
   };
@@ -50,7 +50,7 @@ const JobCard = ({ job }) => {
     color: '#fff', // White text color
     padding: '10px 20px', // Padding for the button
     borderRadius: '5px', // Add rounded corners
-    cursor: 'pointer', 
+    cursor: 'pointer',
   };
 
   return (
@@ -102,7 +102,7 @@ const JobFilter = ({ categories, regions, jobTypes, onFilterChange }) => {
   const labelStyle = {
     fontSize: '22px',
     marginRight: '10px',
-    color: 'white', 
+    color: 'white',
     marginLeft: '380px'
   };
 
@@ -168,7 +168,7 @@ const Job = () => {
 
   return (
     <>
-    
+   
     <div className="background-container" >
       <div><br/>
         <center><h1 style={{ color: 'white' }}><b>Deaf-Friendly Job Portal</b></h1>
