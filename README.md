@@ -1,6 +1,8 @@
 <h2>SignConnect :Community for deaf people</h2>
-![g1](https://github.com/Prajakta514/SignConnect/assets/113609531/f6e6cdce-5f53-4cff-b1c4-4be9467e758c)
-![Screenshot 2024-02-28 000216](https://github.com/Prajakta514/SignConnect/assets/113609531/8498c3a5-103b-4edf-a6c2-84917038dc91)
+
+![g1](https://github.com/Prajakta514/SignConnect/blob/main/assets/113609531/f6e6cdce-5f53-4cff-b1c4-4be9467e758c.png)
+
+![Screenshot 2024-02-28 000216](https://github.com/Prajakta514/SignConnect/blob/main/assets/113609531/8498c3a5-103b-4edf-a6c2-84917038dc91.png)
 
 
 Features
