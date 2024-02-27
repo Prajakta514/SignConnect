@@ -1,11 +1,17 @@
 <h2>SignConnect :Community for deaf people</h2>
+<img src="https://github.com/Prajakta514/SignConnect/assets/113609531/d4893a76-e74d-4f6f-80bf-484ef85bb680">
 <img src="https://github.com/Prajakta514/SignConnect/assets/113609531/b1e5a5c5-f737-45d6-97a9-d1fac6e3b443">
+<img src="https://github.com/Prajakta514/SignConnect/assets/113609531/f4526689-6379-4e20-b3fb-e8403740f12b">
+<img src="https://github.com/Prajakta514/SignConnect/assets/113609531/b1cd2c28-294b-4516-be9e-981d53407a67">
+<img src="https://github.com/Prajakta514/SignConnect/assets/113609531/1b5f0816-5e59-4649-8551-eb2e09add299">
+<img src="https://github.com/Prajakta514/SignConnect/assets/113609531/18c02eee-9890-497e-96a8-5b903b2009b7">
+<img src="https://github.com/Prajakta514/SignConnect/assets/113609531/508a064a-f91f-494b-aae6-2cc7352a0001">
+<img src="https://github.com/Prajakta514/SignConnect/assets/113609531/1a00531f-8f97-49a6-a2d7-1ffcd7a48060">
+<img src="https://github.com/Prajakta514/SignConnect/assets/113609531/8dd83385-5a87-4deb-8797-a6654389f49a">
 
 
 
-<img src="https://github.com/Prajakta514/SignConnect/blob/main/assets/113609531/f6e6cdce-5f53-4cff-b1c4-4be9467e758c.png" width="200" height="430"> ![g1]
 
-<img src="https://github.com/Prajakta514/SignConnect/blob/main/assets/113609531/8498c3a5-103b-4edf-a6c2-84917038dc91.png)"
 
 
 Features
