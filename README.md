@@ -1,5 +1,5 @@
 <h2>SignConnect :Community for deaf people</h2>
-![Screenshot 2024-02-28 000216](https://github.com/Prajakta514/SignConnect/assets/113609531/b1e5a5c5-f737-45d6-97a9-d1fac6e3b443)
+<img src="https://github.com/Prajakta514/SignConnect/assets/113609531/b1e5a5c5-f737-45d6-97a9-d1fac6e3b443">
 
 
 
