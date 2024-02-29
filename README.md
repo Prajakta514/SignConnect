@@ -7,8 +7,8 @@
 <img src="https://github.com/Prajakta514/SignConnect/assets/113609531/18c02eee-9890-497e-96a8-5b903b2009b7" height="200px" width="450px" margin="10px">
 <img src="https://github.com/Prajakta514/SignConnect/assets/113609531/508a064a-f91f-494b-aae6-2cc7352a0001" height="200px" width="450px" margin="10px">
 <img src="https://github.com/Prajakta514/SignConnect/assets/113609531/1a00531f-8f97-49a6-a2d7-1ffcd7a48060" height="200px" width="450px" margin="10px">
-<img src="https://github.com/Prajakta514/SignConnect/assets/113609531/8dd83385-5a87-4deb-8797-a6654389f49a" height="200px" width="450px" margin="10px">
-<img src="https://github.com/Prajakta514/SignConnect/assets/113609531/9f1bc2b1-46a6-47ec-bf86-9e886b8216be" height="200px" width="450px" margin="10px">
+<img src="https://github.com/Prajakta514/SignConnect/assets/113609531/8dd83385-5a87-4deb-8797-a6654389f49a" height="400px" width="450px" margin="10px">
+<img src="https://github.com/Prajakta514/SignConnect/assets/113609531/9f1bc2b1-46a6-47ec-bf86-9e886b8216be" height="500px" width="450px" margin="10px">
 
 
 
