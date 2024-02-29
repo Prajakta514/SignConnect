@@ -1,4 +1,22 @@
-<h2>SignConnect :Community for deaf people</h2>
+#SignConnect: Empowering the Deaf Community
+SignConnect is a revolutionary platform designed to foster connectivity and support within the deaf community. Through a range of innovative features, SignConnect aims to enhance communication, access to resources, and opportunities for individuals who are deaf or hard of hearing. By fostering connectivity and empowerment, SignConnect contributes to the overall well-being and advancement of individuals who are deaf or hard of hearing.
+
+#Features:
+1]Visual Expression: Share images and videos to express thoughts and emotions visually, promoting creative communication.
+2]Sign Language Recognition: Utilizes a machine learning model to detect sign language alphabets, aiding in learning and practicing sign language effectively.
+3]Healthcare Accessibility: Integrated map feature locates nearby hospitals or healthcare facilities, ensuring swift access to medical assistance during emergencies.
+4]Learning Hub: Access curated resources for learning sign language, scholarships, and related topics, empowering community members to expand their knowledge and skills.
+5]Job Opportunities: Dedicated job listings cater to the needs of the deaf community, facilitating access to employment opportunities.
+6]Event Coordination: Interactive calendar for marking and viewing upcoming events and important dates, enhancing community engagement and participation.
+7]Real-time Communication: Forums and group chat feature enable quick and direct interactions among community members, fostering a sense of belonging and support.
+8]Virtual Meetings: Group video call functionality using Zegocloud-services facilitates face-to-face communication in a virtual environment, promoting connection and collaboration.
+9]Chatbot Assistance: Integration of a chatbot powered by Botpress for efficient and personalized assistance.
+
+#How to Use:
+To get started with SignConnect, follow these steps:
+Install dependencies using npm i --force.
+Install Firebase using npm install firebase --force.
+
 <img src="https://github.com/Prajakta514/SignConnect/assets/113609531/d4893a76-e74d-4f6f-80bf-484ef85bb680" height="200px"width="400px" margin="10px">
 <img src="https://github.com/Prajakta514/SignConnect/assets/113609531/b1e5a5c5-f737-45d6-97a9-d1fac6e3b443" height="200px"width="400px" margin="10px">
 <img src="https://github.com/Prajakta514/SignConnect/assets/113609531/f4526689-6379-4e20-b3fb-e8403740f12b" height="200px" width="400px" margin="10px">
@@ -10,35 +28,8 @@
 <img src="https://github.com/Prajakta514/SignConnect/assets/113609531/8dd83385-5a87-4deb-8797-a6654389f49a" height="420px" width="400px" margin="10px">
 <img src="https://github.com/Prajakta514/SignConnect/assets/113609531/9f1bc2b1-46a6-47ec-bf86-9e886b8216be" height="500px" width="400px" margin="10px">
 
-
-
-
-
-
-Features
-1. Sharing Pictures and Videos
-Users can share images and videos to express themselves visually.
-Promotes a visual and creative way of communication.
-2. Machine Learning Model for Sign Language Alphabets
-In-built machine learning model to detect and interpret sign language alphabets.
-A valuable tool for learning and practicing sign language.
-3. Nearby Hospital Locator
-Integrated map feature to locate nearby hospitals or healthcare facilities.
-Ensures quick access to medical assistance in emergencies.
-4. Learning Resources
-Curated resources for learning sign language, scholarshps update and related topics.
-Empowers community members to enhance their knowledge and skills.
-5.  Job Search
-Dedicated section for job listings and opportunities.
-Enables members to search for job openings suitable for the deaf community.
-6. Calendar for Upcoming Events
-Interactive calendar to mark and view upcoming events and important dates.
-Facilitates coordination and participation in community events.
-7. Forums
-Real-time chat feature for group communication.
-Supports text-based communication for quick and direct interactions.
-8. Group Video Call Functionality using Zegocloud-services
-Group video call feature to facilitate virtual meetings.
-Enables community members to connect face-to-face in a virtual environment.
-9. Chatbot - by Botpress
+#Links:
+Deployed Link: https://deaf-community-45748.web.app/
+YouTube Demo: https://youtu.be/HsrhSxmWgMk?si=9tKAuDqSf1tWC7LN
+Join SignConnect today and be part of a thriving community dedicated to empowerment and inclusion.
 
